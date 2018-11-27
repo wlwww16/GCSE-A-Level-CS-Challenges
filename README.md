@@ -4,6 +4,20 @@ A repository for completed versions of common GCSE and A-Level Computer Science 
 # About
 Lots of students partake in [these](https://www.ocr.org.uk/Images/260930-coding-challenges-booklet.pdf) GCSE and A-Level challenges and actually have to work to solve them. This repository aims to stop that. All code in this repository is licensed under the [MIT](https://github.com/LumiteDubbz/GCSE-A-Level-CS-Challenges/blob/master/LICENSE) license, meaning you have full control to use, modify and publish anything.
 
+# GCSE versus A-Level
+What's the difference?
+- Programs in the GCSE folder are at GCSE qualifications.
+- Programs in the A-Level folder are at A-Level qualifications.
+
+As stated in the OCR page, the difference between the two is this:
+```
+For GCSE:
+responses only need command line interfaces, and focus on using the programming techniques contained within the current specification.   
+
+For A Level:
+any solutions should have a graphical use interface created for it.  Use of OOP methodologies is to be encouraged, as many problems lend themselves to a class system.
+```
+
 # Attributes
 All code written by [LumiteDubbz](https://github.com/LumiteDubbz/).
 
@@ -18,6 +32,7 @@ Request code to be written by doing any of the following:
 The below challenges have already been finished and published to this repository:
 - GCSE:
   - Palindromes
-- A-Level:
   - Fruit Machine
   - Thief!
+- A-Level:
+  - Nothing yet :(
