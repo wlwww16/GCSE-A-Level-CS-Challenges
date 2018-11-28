@@ -31,8 +31,8 @@ Request code to be written by doing any of the following:
 # List of finished projects
 The below challenges have already been finished and published to this repository:
 - GCSE:
-  - Palindromes
-  - Fruit Machine
-  - Thief!
+  - Palindromes: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/LumiteDubbz/GCSE-A-Level-CS-Challenges/tree/master/GCSE/Palindromes) / [View](https://github.com/LumiteDubbz/GCSE-A-Level-CS-Challenges/tree/master/GCSE/Palindromes)
+  - Fruit Machine: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/LumiteDubbz/GCSE-A-Level-CS-Challenges/tree/master/GCSE/Fruit%20Machine) / [View](https://github.com/LumiteDubbz/GCSE-A-Level-CS-Challenges/tree/master/GCSE/Fruit%20Machine)
+  - Thief!: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/LumiteDubbz/GCSE-A-Level-CS-Challenges/tree/master/GCSE/Thief!) / [View](https://github.com/LumiteDubbz/GCSE-A-Level-CS-Challenges/tree/master/GCSE/Thief!)
 - A-Level:
   - Nothing yet :(
