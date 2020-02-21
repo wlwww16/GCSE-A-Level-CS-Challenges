@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Numerics;
 
 namespace Factorial_Finder
@@ -11,7 +10,7 @@ namespace Factorial_Finder
             Console.WriteLine("Fair warning; this program uses the BigInteger structure. That means that it will allow any number of any size until the system runs out of memory.");
             Console.WriteLine("Other structures, such as decimal, will not work out the factorial of any number larger than 27 before they throw an overflow exception.");
             Console.WriteLine("For reference, calculating the factorial of 1,000,000 took 16 minutes and 22 seconds on a Ryzen 5 3550H.");
-            Console.WriteLine("\n\nPlease enter a number to find the factorial of.");
+            Console.WriteLine("\n\nPlease enter a number to find the factorial of:");
 
             var input = Console.ReadLine();
             
@@ -21,11 +20,11 @@ namespace Factorial_Finder
                 Environment.Exit(1);
             }
 
-            BigInteger result = numberToFindFactorialOf;
+            var result = numberToFindFactorialOf;
 
             for (BigInteger number = 1; number < numberToFindFactorialOf; number++)
             {
-                result = checked(result * number);
+                result *= number;
             }
 
             Console.WriteLine($"The factorial of {numberToFindFactorialOf} is {result.ToString()}");

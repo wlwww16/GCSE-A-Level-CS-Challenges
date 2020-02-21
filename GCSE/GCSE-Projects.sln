@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speed_Tracker", "Speed_Tracker\Speed_Tracker.csproj", "{BF737329-DE02-4394-98E9-6F405ED62FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial_Finder", "Factorial_Finder\Factorial_Finder.csproj", "{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial_Finder", "Factorial_Finder\Factorial_Finder.csproj", "{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
