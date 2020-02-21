@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speed_Tracker", "Speed_Tracker\Speed_Tracker.csproj", "{BF737329-DE02-4394-98E9-6F405ED62FEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speed_Tracker", "Speed_Tracker\Speed_Tracker.csproj", "{BF737329-DE02-4394-98E9-6F405ED62FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial_Finder", "Factorial_Finder\Factorial_Finder.csproj", "{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BF737329-DE02-4394-98E9-6F405ED62FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF737329-DE02-4394-98E9-6F405ED62FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF737329-DE02-4394-98E9-6F405ED62FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
