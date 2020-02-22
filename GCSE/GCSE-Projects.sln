@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speed_Tracker", "Speed_Trac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial_Finder", "Factorial_Finder\Factorial_Finder.csproj", "{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification", "Classification\Classification.csproj", "{BA8DA6B0-9EF8-45EE-A345-086DAA2C07CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit_Converter", "Unit_Converter\Unit_Converter.csproj", "{25879E21-5603-4796-A6CD-634012751D9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BCA8791-8BC2-4FF4-A7D2-72A38631982F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8DA6B0-9EF8-45EE-A345-086DAA2C07CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8DA6B0-9EF8-45EE-A345-086DAA2C07CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8DA6B0-9EF8-45EE-A345-086DAA2C07CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8DA6B0-9EF8-45EE-A345-086DAA2C07CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25879E21-5603-4796-A6CD-634012751D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25879E21-5603-4796-A6CD-634012751D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25879E21-5603-4796-A6CD-634012751D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25879E21-5603-4796-A6CD-634012751D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
