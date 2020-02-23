@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Unit_Converter
 {
@@ -8,19 +6,22 @@ namespace Unit_Converter
     {
         public static void Main()
         {
-            Console.Write("Please enter a temperature: ");
-            
-            var startingMeasurement = double.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.Write("Please enter a temperature: ");
 
-            Console.Write("Is this measurement in kelvin, fahrenheit or celsius? ");
+                var startingMeasurement = double.Parse(Console.ReadLine());
 
-            var startingUnit = Console.ReadLine();
+                Console.Write("Is this measurement in kelvin, fahrenheit or celsius? ");
 
-            Console.Write("Is your desired unit kelvin, fahrenheit or celsius? ");
+                var startingUnit = Console.ReadLine();
 
-            var desiredUnit = Console.ReadLine();
+                Console.Write("Is your desired unit kelvin, fahrenheit or celsius? ");
 
-            Console.WriteLine($"{startingMeasurement}{startingUnit[0].ToString().ToUpper()} is {startingMeasurement.ConvertTo(desiredUnit, startingUnit)}{desiredUnit[0].ToString().ToUpper()}.");
+                var desiredUnit = Console.ReadLine();
+
+                Console.WriteLine($"{startingMeasurement}{startingUnit[0].ToString().ToUpper()} is {startingMeasurement.ConvertTo(desiredUnit, startingUnit)}{desiredUnit[0].ToString().ToUpper()}.");
+            }
         }
     }
 
