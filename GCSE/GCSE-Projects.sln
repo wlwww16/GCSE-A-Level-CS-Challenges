@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial_Finder", "Factori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification", "Classification\Classification.csproj", "{BA8DA6B0-9EF8-45EE-A345-086DAA2C07CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit_Converter", "Unit_Converter\Unit_Converter.csproj", "{25879E21-5603-4796-A6CD-634012751D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit_Converter", "Unit_Converter\Unit_Converter.csproj", "{25879E21-5603-4796-A6CD-634012751D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fruit_Machine", "Fruit_Machine\Fruit_Machine.csproj", "{00CC1B8D-5DF9-407C-BF2F-0A26FE044087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{25879E21-5603-4796-A6CD-634012751D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25879E21-5603-4796-A6CD-634012751D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25879E21-5603-4796-A6CD-634012751D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CC1B8D-5DF9-407C-BF2F-0A26FE044087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CC1B8D-5DF9-407C-BF2F-0A26FE044087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CC1B8D-5DF9-407C-BF2F-0A26FE044087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CC1B8D-5DF9-407C-BF2F-0A26FE044087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
