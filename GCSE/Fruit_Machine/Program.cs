@@ -39,15 +39,14 @@ namespace Fruit_Machine
         public static double Roll(double playerCredits)
         {
             var random = new Random();
-            var firstSymbol= Symbols[random.Next(0, Symbols.Length)];
-            var secondSymbol = Symbols[random.Next(0, Symbols.Length)];
-            var thirdSymbol = Symbols[random.Next(0, Symbols.Length)];
-            var symbols = new List<string>
-            {
-                firstSymbol, secondSymbol, thirdSymbol
-            };
+            var symbols = new List<string>();
 
-            Console.WriteLine($"\nYou rolled: {firstSymbol}, {secondSymbol}, {thirdSymbol}.");
+            for (var i = 0; i < 3; i++)
+            {
+                symbols.Add(Symbols[random.Next(0, Symbols.Length)]);
+            }
+
+            Console.WriteLine($"\nYou rolled: {symbols[0]}, {symbols[1]}, {symbols[2]}.");
 
             foreach (var symbol in symbols)
             {
